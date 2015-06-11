@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-tdb-0.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="lib/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/ooxml-lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/IFC_RDF"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/jena-tdb-0.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/2014/java_libraries/jena/xml-apis-1.4.01.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DiffCommon"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
