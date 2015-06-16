@@ -20,26 +20,11 @@ public class StringChecksum {
 	boolean useHash = true;
 	StringBuffer noHashSave = new StringBuffer();
 
-	/*public StringChecksum() {
-		this.useHash = true;
-
-		try {
-			md = MessageDigest.getInstance("MD5"); // SHA-512 MD5
-		} catch (NoSuchAlgorithmException e) {
-
-			e.printStackTrace();
-		}
-		try {
-			old = (MessageDigest) md.clone();
-		} catch (CloneNotSupportedException e) {
-			e.printStackTrace();
-		}
-
-	}*/
+	
 
 	public StringChecksum(boolean useHash) {
 		this.useHash = useHash;
-		this.useHash = true;
+		//this.useHash = true;
 		if (useHash) {
 			try {
 				md = MessageDigest.getInstance("MD5"); // SHA-512 MD5

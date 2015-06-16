@@ -8,6 +8,9 @@ import fi.ni.nodenamer.datastructure.Node;
 public class SP_test {
 	long timestamp1;
 	long timestamp2;
+	
+	long ms_timestamp1;
+	long ms_timestamp2;
 	NodeNamer gs1 = new NodeNamer();
 	NodeNamer gs2 = new NodeNamer();
 	SimplifiedGeom tr1 = new SimplifiedGeom();
@@ -30,6 +33,7 @@ public class SP_test {
 
 		}
 		timestamp1=System.nanoTime();
+		ms_timestamp1=System.currentTimeMillis();
 		tr1.setInternalGraph(gs1.getNodes());		 
 		tr1.calculatePlacementsCksum();
 
@@ -41,8 +45,6 @@ public class SP_test {
 	public RetVal test(TestParams p) {
 		
 		gs1.make(p);
-		//System.gc();
-
 		gs2.make(p);
 		System.out.println("Graphs ready GC");
 		System.gc();
@@ -80,10 +82,10 @@ public class SP_test {
 				added++;
 			}
 		}
-		
 		timestamp2=System.nanoTime();
-		
-		System.out.println("CPU time:"+((timestamp2-timestamp1)/100000000));
+		ms_timestamp2=System.currentTimeMillis();
+		System.out.println("CPU time ms:"+(ms_timestamp2-ms_timestamp1));
+		System.out.println("CPU time:"+((timestamp2-timestamp1)/1000000));
         return new RetVal(removed,added);		
 	}
 
@@ -93,14 +95,14 @@ public class SP_test {
 		TestParams p = new TestParams(maxsteps, useHash);
 		System.out.println(p);
 		System.out.println("Huge Extended Plus");
-		SP_test hs=new SP_test("common","common",report,"C:/2015_test/","0.IFC", "1.IFC", "IFC");
+		SP_test hs=new SP_test("common","common",report,"C:/2015_testdata/perfset/","WallStandardCase-01A.ifc", "WallStandardCase-01A.ifc", "IFC");
 		RetVal ret=hs.test(p);
 		System.out.println("Result: "+ret.removed+" "+ret.added);
 		
 	}
 
 	public static void main(String[] args) {
-		test(true,15, true);
+		test(true,5, true);
 	}
 
 
